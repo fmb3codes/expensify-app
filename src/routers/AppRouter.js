@@ -12,7 +12,7 @@ import LoginPage from "../components/LoginPage";
 import NotFoundPage from "../components/NotFoundPage";
 import Header from "../components/Header";
 import PrivateRoute from "./PrivateRoute";
-import PublicRoute from ".PublicRoute";
+import PublicRoute from "./PublicRoute";
 
 
 export const history = createHistory();
