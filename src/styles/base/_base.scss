@@ -1,13 +1,19 @@
 // partials start with underscores; contain part of application styles
 // rem
 
+* {
+    box-sizing: border-box;
+}
+
 html {
     font-size: 62.5%; // 16 * .625 = 10 (base 10 for rems)
 }
 
 body {
+    color: $dark-gray;
     font-family: Helvetica, Arial, sans-serif;
     font-size: $m-size;
+    line-height: 1.6;
 }
 
 button {
